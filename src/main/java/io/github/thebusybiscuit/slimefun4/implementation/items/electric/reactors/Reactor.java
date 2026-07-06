@@ -510,7 +510,7 @@ public abstract class Reactor extends AbstractEnergyProvider
 
             return false;
         } else {
-            removeHologram(reactor.getBlock());
+
         }
 
         return true;
