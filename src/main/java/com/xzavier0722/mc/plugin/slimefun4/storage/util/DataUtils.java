@@ -39,13 +39,13 @@ public class DataUtils {
                     && Slimefun.getDatabaseManager().getBlockDataStorageType() == StorageType.MYSQL
                     && itemStr.length() > 65535) {
 
-                throw new IllegalArgumentException("检测到过大物品, 请联系物品对应插件开发者解决: " + StringUtil.itemStackToString(itemStack)
+                throw new IllegalArgumentException("Oversized item detected, contact the addon developer for this item: " + StringUtil.itemStackToString(itemStack)
                         + ", size = " + itemStr.length());
             }
 
             return itemStr;
         } catch (Throwable e) {
-            Slimefun.logger().log(Level.SEVERE, "序列化物品时出现错误, 将存储空值", e);
+            Slimefun.logger().log(Level.SEVERE, "An error occurred while serializing an item, storing an empty value", e);
             return "";
         }
     }
@@ -71,12 +71,12 @@ public class DataUtils {
             Debug.log(TestCase.BACKPACK, "Deserialized itemstack: " + result);
 
             if (result.getType().isAir()) {
-                Slimefun.logger().log(Level.SEVERE, "反序列化数据库中的物品失败! 对应物品无法显示.");
+                Slimefun.logger().log(Level.SEVERE, "Failed to deserialize an item from the database! The item cannot be displayed.");
             }
 
             return result;
         } catch (Exception ex) {
-            throw new RuntimeException("反序列化物品时出现错误, 对应物品无法显示", ex);
+            throw new RuntimeException("An error occurred while deserializing an item, the item cannot be displayed", ex);
         }
     }
 

@@ -186,7 +186,7 @@ public class ExplosiveTool extends SimpleSlimefunItem<ToolUseHandler> implements
                      * 将调用 breakNaturally 方法而非将其作为 SlimefunItem 进行处理。
                      *
                      * 此前将 blocks 进行排序，以确保头颅为最先处理的对象，检查头颅的 Y - 1 方块是否为叶子，
-                     * 若为叶子则尝试获取该处的 SlimefunItem，若能获取得到则此处应为异域花园植物，将叶子处直接设置为 AIR 并移除该处 Slimefun 方块数据。
+                     * 若为叶子则尝试获取该处的 SlimefunItem，若能获取得到则此处应为异域花园植物，将叶子处直接设置为 AIR 并移除该处 Slimefun Block data。
                      */
                     if (Bukkit.getPluginManager().isPluginEnabled("ExoticGarden")
                             && block.getType().equals(Material.PLAYER_HEAD)) {

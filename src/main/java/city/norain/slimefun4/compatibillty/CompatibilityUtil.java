@@ -14,7 +14,7 @@ public class CompatibilityUtil {
     /**
      * 获取玩家放置此方块所使用的物品材质。
      * 对于大多数方块，这与 getMaterial() 相同，但有些方块有不同的材质用于放置它们。
-     * 注意：此处没有涵盖所有可能不同的方块数据类型。
+     * 注意：此处没有涵盖所有可能不同的Block data类型。
      *
      * @param blockData
      * @return 放置此方块所使用的材质

@@ -103,7 +103,7 @@ public class StringUtil {
                             sb.append("\t- locked ").append(monitor.toString()).append("\n"));
         }
 
-        // 持有的同步器
+        // 持有的Synchronous器
         if (threadInfo.getLockedSynchronizers().length > 0) {
             sb.append("   Locked synchronizers:\n");
             Arrays.stream(threadInfo.getLockedSynchronizers())

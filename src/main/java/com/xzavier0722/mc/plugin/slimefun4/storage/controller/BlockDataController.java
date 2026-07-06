@@ -48,9 +48,9 @@ import org.bukkit.plugin.Plugin;
 import org.bukkit.scheduler.BukkitTask;
 
 /**
- * 方块数据控制器
+ * Block data控制器
  * <p>
- * 用于管理区块中的 Slimefun 方块数据
+ * 用于管理区块中的 Slimefun Block data
  * <p>
  * {@link SlimefunBlockData}
  * {@link SlimefunUniversalData}
@@ -196,11 +196,11 @@ public class BlockDataController extends ADataController {
     }
 
     /**
-     * 在指定位置创建一个新的 Slimefun 方块数据
+     * 在指定位置创建一个新的 Slimefun Block data
      *
      * @param l    Slimefun 方块位置 {@link Location}
      * @param sfId Slimefun 物品 ID {@link SlimefunItem#getId()}
-     * @return 方块数据, {@link SlimefunBlockData}
+     * @return Block data, {@link SlimefunBlockData}
      */
     @Nonnull
     public SlimefunBlockData createBlock(Location l, String sfId) {
@@ -259,11 +259,11 @@ public class BlockDataController extends ADataController {
     }
 
     /**
-     * 在指定位置创建一个新的 Slimefun 通用方块数据
+     * 在指定位置创建一个新的 Slimefun 通用Block data
      *
      * @param l    Slimefun 方块位置 {@link Location}
      * @param sfId Slimefun 物品 ID {@link SlimefunItem#getId()}
-     * @return 通用方块数据, {@link SlimefunUniversalBlockData}
+     * @return 通用Block data, {@link SlimefunUniversalBlockData}
      */
     @Nonnull
     @ParametersAreNonnullByDefault
@@ -338,7 +338,7 @@ public class BlockDataController extends ADataController {
     }
 
     /**
-     * 移除指定位置上的 Slimefun 数据
+     * 移除指定位置的 Slimefun 数据
      *
      * @param l 位置 {@link Location}
      */
@@ -370,7 +370,7 @@ public class BlockDataController extends ADataController {
     }
 
     /**
-     * 移除指定位置上的 Slimefun 方块数据
+     * 移除指定位置的 Slimefun Block data
      *
      * @param l 位置 {@link Location}
      */
@@ -394,7 +394,7 @@ public class BlockDataController extends ADataController {
     }
 
     /**
-     * 移除指定位置对应的可能存在的 Slimefun 通用方块数据
+     * 移除指定位置对应的可能存在的 Slimefun 通用Block data
      *
      * @param l {@link Location} 位置
      */
@@ -411,9 +411,9 @@ public class BlockDataController extends ADataController {
     }
 
     /**
-     * 移除指定 UUID 对应的 Slimefun 通用方块数据
+     * 移除指定 UUID 对应的 Slimefun 通用Block data
      *
-     * @param uuid 通用方块数据识别符
+     * @param uuid 通用Block data识别符
      */
     public void removeUniversalBlockData(UUID uuid) {
         checkDestroy();
@@ -830,7 +830,7 @@ public class BlockDataController extends ADataController {
 
         loadChunkData(chunkData);
 
-        // 按区块加载方块数据
+        // 按区块加载Block data
 
         var key = new RecordKey(DataScope.BLOCK_RECORD);
         key.addField(FieldKey.LOCATION);
@@ -860,7 +860,7 @@ public class BlockDataController extends ADataController {
     public void loadWorld(World world) {
         var start = System.currentTimeMillis();
         var worldName = world.getName();
-        logger.log(Level.INFO, "正在加载世界 {0} 的 Slimefun 方块数据...", worldName);
+        logger.log(Level.INFO, "Loading Slimefun block data for world {0}...", worldName);
         var chunkKeys = new HashSet<String>();
         var key = new RecordKey(DataScope.CHUNK_DATA);
         key.addField(FieldKey.CHUNK);
@@ -874,7 +874,7 @@ public class BlockDataController extends ADataController {
 
         chunkKeys.forEach(cKey -> loadChunk(LocationUtils.toChunk(world, cKey), false, true));
         logger.log(
-                Level.INFO, "世界 {0} 数据加载完成, 耗时 {1}ms", new Object[] {worldName, (System.currentTimeMillis() - start)});
+                Level.INFO, "World {0} data loaded in {1}ms", new Object[] {worldName, (System.currentTimeMillis() - start)});
     }
 
     public void loadUniversalRecord() {
@@ -997,7 +997,7 @@ public class BlockDataController extends ADataController {
                             Slimefun.logger()
                                     .log(
                                             Level.SEVERE,
-                                            "加载目标物品失败, 请检查实际数据 ["
+                                            "Failed to load target item, please check the actual data ["
                                                     + LocationUtils.locationToString(blockData.getLocation()) + ":"
                                                     + slot + "]",
                                             ex);
@@ -1079,7 +1079,7 @@ public class BlockDataController extends ADataController {
 
             if (uniData instanceof SlimefunUniversalBlockData ubd) {
                 if (ubd.hasTrait(UniversalDataTrait.BLOCK)) {
-                    // 初始化 上次出现位置
+                    // 初始化 次出现位置
                     var lStr = ubd.getData(UniversalDataTrait.BLOCK.getReservedKey());
 
                     if (lStr != null && !lStr.isBlank()) {
@@ -1113,7 +1113,7 @@ public class BlockDataController extends ADataController {
                         } catch (Exception ex) {
                             inv[slot] = null;
                             Slimefun.logger()
-                                    .log(Level.SEVERE, "加载目标物品失败, 请检查实际数据 [" + uniData.getKey() + ":" + slot + "]", ex);
+                                    .log(Level.SEVERE, "Failed to load target item, please check the actual data [" + uniData.getKey() + ":" + slot + "]", ex);
                         }
                     }
 
@@ -1613,7 +1613,7 @@ public class BlockDataController extends ADataController {
                         Slimefun.logger()
                                 .log(
                                         Level.SEVERE,
-                                        "加载目标物品失败, 请检查实际数据 [" + universalData.getKey() + ":" + slot + "]",
+                                        "Failed to load target item, please check the actual data [" + universalData.getKey() + ":" + slot + "]",
                                         ex);
                     }
                 }
@@ -1633,7 +1633,7 @@ public class BlockDataController extends ADataController {
                         .enableTicker(universalData.getLastPresent().toLocation(), universalData.getUUID());
             }
         } catch (Exception e) {
-            Slimefun.logger().log(Level.WARNING, "迁移机器人数据时出现错误", e);
+            Slimefun.logger().log(Level.WARNING, "An error occurred while migrating android data", e);
         }
     }
 }

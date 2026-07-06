@@ -6,12 +6,12 @@ package com.xzavier0722.mc.plugin.slimefun4.storage.common;
  */
 public enum DataType {
     /**
-     * 玩家档案，通常包含研究进度、背包等其他玩家相关数据。
+     * 玩家档案，通常包含研究进度、Backpack等其他玩家相关数据。
      */
     PLAYER_PROFILE,
 
     /**
-     * Slimefun 方块数据
+     * Slimefun Block data
      */
     BLOCK_STORAGE
 }

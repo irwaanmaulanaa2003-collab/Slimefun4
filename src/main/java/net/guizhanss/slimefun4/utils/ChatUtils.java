@@ -16,7 +16,7 @@ public class ChatUtils {
     }
 
     /**
-     * 发送带 Slimefun 前缀的消息
+     * 发送带 Slimefun ago缀的消息
      * @param sender 消息接收人
      * @param message 消息
      */
@@ -25,7 +25,7 @@ public class ChatUtils {
     }
 
     /**
-     * 发送带 Slimefun 前缀的消息
+     * 发送带 Slimefun ago缀的消息
      * @param sender 消息接收人
      * @param message 消息
      * @param function 对消息进行处理的{@link Function}

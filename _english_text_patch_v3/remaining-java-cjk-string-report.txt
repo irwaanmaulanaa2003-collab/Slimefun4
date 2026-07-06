@@ -1,0 +1,1 @@
+No remaining CJK in Java string literals.
