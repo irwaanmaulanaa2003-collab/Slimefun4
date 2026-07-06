@@ -1,5 +1,0 @@
-languages/en/categories.yml  sha256=04d001654f76513f4ea82f679f310aae0fe55a9be2c47ad78afd44af87781b6f  bytes=799
-languages/en/messages.yml  sha256=d649bdeaa3fbade7c4ae2d36de504a3be67879a3da1845908f6f387480245b1a  bytes=20362
-languages/en/recipes.yml  sha256=7ea69bad453c801412e0707ab90f221225fcbc7a502adf086269391592493a90  bytes=4071
-languages/en/researches.yml  sha256=330c1bdea256e990c9726ee30ef29aa93bf677aeb79571851dc0884edcf97432  bytes=9644
-languages/en/resources.yml  sha256=5fe0db901743211b23a5628784d6e984bd0ec884326dc76b73fec79788ea646e  bytes=636
