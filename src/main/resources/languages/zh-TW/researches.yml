@@ -1,261 +1,261 @@
----
 slimefun:
-  walking_sticks: 拐杖
-  portable_crafter: 隨身合成檯
-  fortune_cookie: 幸運餅乾
-  portable_dustbin: 隨身垃圾桶
-  meat_jerky: 肉乾
-  armor_forge: 盔甲合成檯
-  glowstone_armor: 螢光石套裝
-  lumps: 魔法結晶
-  ender_backpack: 終界背包
-  ender_armor: 終界套裝
-  magic_eye_of_ender: 終界法眼
-  magic_sugar: 魔法糖
-  monster_jerky: 腐肉乾
-  slime_armor: 史萊姆套裝
-  sword_of_beheading: 斬首劍
-  basic_circuit_board: 基礎電路板
-  advanced_circuit_board: 進階電路板
-  smeltery: 冶煉爐
-  steel: 鋼鐵時代
-  misc_power_items: 硫酸鹽和能量水晶
-  battery: 電池
-  steel_plate: 鋼板
-  steel_thruster: 鋼製推進器
-  parachute: 降落傘
-  grappling_hook: 鷹爪鉤
-  jetpacks: 噴射背包
-  multitools: 多功能工具
-  solar_panel_and_helmet: 太陽能頭盔
-  elemental_staff: 元素杖
-  grind_stone: 研磨機
-  cactus_armor: 仙人掌套裝
-  gold_pan: 掏金盤
-  magical_book_cover: 魔法書封面
-  slimefun_metals: 更多金屬
-  ore_crusher: 雙倍礦物
-  bronze: 青銅時代
-  alloys: 進階合金
-  compressor_and_carbon: 壓縮碳
-  gilded_iron_armor: 鍍金鐵套裝
-  synthetic_diamond: 合成鑽石
-  pressure_chamber: 加壓室
-  synthetic_sapphire: 合成藍寶石
-  damascus_steel: 大馬士革鋼
-  damascus_steel_armor: 大馬士革鋼套裝
-  reinforced_alloy: 強化合金錠
-  carbonado: 黑鑽石
-  magic_workbench: 魔法合成檯
-  wind_staff: 元素杖—風
-  reinforced_armor: 強化合金錠套裝
-  ore_washer: 礦物洗滌機
-  gold_carats: 純金
-  silicon: 麥塊矽谷
-  fire_staff: 元素杖—火
-  smelters_pickaxe: 冶煉鎬
-  common_talisman: 基礎護身符
-  anvil_talisman: 鐵砧護身符
-  miner_talisman: 礦工護身符
-  hunter_talisman: 獵人護身符
-  lava_talisman: 熔岩護身符
-  water_talisman: 水中呼吸護身符
-  angel_talisman: 天使護身符
-  fire_talisman: 火焰護身符
-  lava_crystal: 燒喔~
-  magician_talisman: 法師護身符
-  traveller_talisman: 旅者護身符
-  warrior_talisman: 戰士護身符
-  knight_talisman: 騎士護身符
-  gilded_iron: 鍍金鐵
-  synthetic_emerald: 人造翡翠
-  chainmail_armor: 鎖鍊套裝
-  whirlwind_talisman: 旋風護身符
-  wizard_talisman: 巫師護身符
-  lumber_axe: 伐木斧
-  hazmat_suit: 抗輻射套裝
-  uranium: 輻射金屬
-  crushed_ore: 礦石純化
-  redstone_alloy: 紅石合金錠
-  carbonado_tools: 頂級機器
-  first_aid: 急救包
-  gold_armor: 比較強的金裝
-  night_vision_googles: 夜視鏡
-  pickaxe_of_containment: 生怪磚鎬
-  hercules_pickaxe: 粉碎鎬
-  table_saw: 鋸木機
-  slime_steel_armor: 鋼鐵史萊姆套裝
-  blade_of_vampires: 吸血之刃
-  water_staff: 元素杖—水
-  24k_gold_block: 我就有錢
-  composter: 堆肥
-  farmer_shoes: 農夫鞋
-  explosive_tools: 爆炸性的突破
-  automated_panning_machine: 懶人掏金盤
-  boots_of_the_stomper: 踐踏之靴
-  pickaxe_of_the_seeker: 合法 X-ray
-  backpacks: 背包
-  woven_backpack: 手織背包
-  crucible: 坩鍋
-  gilded_backpack: 鍍金背包
-  armored_jetpack: 噴射裝甲
-  ender_talismans: 放終界箱
-  nickel_and_cobalt: 這是元素不是合金啊啊啊啊啊
-  magnet: 磁鐵
-  infused_magnet: 物品磁鐵
-  cobalt_pickaxe: 我是速度
-  essence_of_afterlife: 死靈法師?!
-  bound_backpack: 魂綁背包
-  jetboots: 火箭靴
-  armored_jetboots: 火箭鐵靴
-  seismic_axe: 地震斧
-  pickaxe_of_vein_mining: 連鎖鎬
-  bound_weapons: 魂綁武器
-  bound_tools: 魂綁工具
-  bound_armor: 魂綁套裝
-  juicer: 果汁!
-  repaired_spawner: 修理生怪磚
-  enhanced_furnace: 進階熔爐
-  more_enhanced_furnaces: 更好的進階熔爐
-  high_tier_enhanced_furnaces: 更高階的熔爐
-  reinforced_furnace: 強化熔爐
-  carbonado_furnace: 碳纖維熔爐
-  electric_motor: 馬達
-  block_placer: 方塊放置器
-  scroll_of_dimensional_teleposition: 他很奇異~
-  special_bows: 鷹眼
-  tome_of_knowledge_sharing: 共產經驗
-  flask_of_knowledge: 經驗值儲存器
-  hardened_glass: 抗爆
-  golden_apple_juice: 比較黃的果汁
-  cooler: 保溫器
-  ancient_altar: 古代祭壇
-  wither_proof_obsidian: 抗凋黑曜石
-  ancient_runes: 元素符文
-  special_runes: 紫色符文
-  infernal_bonemeal: 地獄骨粉
-  rainbow_blocks: 彩虹方塊
-  infused_hopper: 滴水不漏
-  wither_proof_glass: 抗凋玻璃
-  duct_tape: FLEX TAPE
-  plastic_sheet: 塑膠
-  android_memory_core: 機器人記憶體
-  oil: 美國的最愛
-  fuel: 石油燃料
-  hologram_projector: 投影文字
-  capacitors: 初階電容器
-  high_tier_capacitors: 高階電容器
-  solar_generators: 太陽能發機
-  electric_furnaces: 電磁爐
-  electric_ore_grinding: 電動研磨
-  heated_pressure_chamber: 高溫加壓室
-  coal_generator: 乾淨的煤
-  bio_reactor: 生質能反應爐
-  auto_enchanting: 附魔&退魔檯
-  auto_anvil: 電動鐵砧
-  multimeter: 電力測量
-  gps_setup: GPS 基礎組件
-  gps_emergency_transmitter: GPS 求救信號
-  programmable_androids: 機器人
-  android_interfaces: 機器人接口
-  geo_scanner: 地質掃描
-  combustion_reactor: 火力反應爐
-  teleporter: 傳送檯基座
-  teleporter_activation_plates: 傳送裝置
-  better_solar_generators: 高階太陽能發電機
-  better_gps_transmitters: 高階GPS信號發送器
-  elevator: 電梯
-  energized_solar_generator: 這...這不科學!
-  energized_gps_transmitter: 頂級 GPS 信號發送器
-  energy_regulator: 電力核心
-  butcher_androids: 屠夫機器人
-  organic_food: 有機食品
-  auto_breeder: 幫你餵動物
-  advanced_android: 進階機器人
-  advanced_butcher_android: 進階機器人—屠夫
-  advanced_fisherman_android: 進階機器人—漁夫
-  animal_growth_accelerator: 動物轉大人
-  xp_collector: 經驗收集器
-  organic_fertilizer: 有機堆肥
-  crop_growth_accelerator: 金坷垃
-  better_crop_growth_accelerator: 金坷垃 2.0
-  reactor_essentials: 反應爐必需品
-  nuclear_reactor: 核分裂反應爐
-  freezer: 我的超人裝呢
-  cargo_basics: 物流基礎
-  cargo_nodes: 物流節點
-  electric_ingot_machines: 電動煉錠產業鍊
-  medium_tier_electric_ingot_machines: 快速煉錠產業鍊
-  high_tier_electric_ingot_machines: 高速煉錠產業鍊
-  automated_crafting_chamber: 自動合成檯
-  better_food_fabricator: 進階食品加工場
-  reactor_access_port: 反應爐接口
-  fluid_pump: 幫浦
-  better_freezer: 比你的笑話還冷
-  boosted_uranium: 高壓鈾
-  trash_can: 黑洞!
-  advanced_output_node: 進階輸出接口
-  carbon_press: 碳壓縮機
-  electric_smeltery: 電動冶煉爐
-  better_electric_furnace: 升級版電磁爐
-  better_carbon_press: 升級版碳壓縮機
-  empowered_android: 頂級機器人
-  empowered_butcher_android: 頂級機器人—屠夫
-  empowered_fisherman_android: 頂級機器人—漁夫
-  high_tier_carbon_press: 終極碳壓縮機
-  wither_assembler: 凋零農場
-  better_heated_pressure_chamber: 進階高溫加壓室
-  elytra: 鞘翅
-  special_elytras: 特殊鞘翅
-  trident: 三叉戟
-  electric_crucible: 電動坩堝
-  better_electric_crucibles: 電熱坩堝—改
-  advanced_electric_smeltery: 進階電動冶煉爐
-  advanced_farmer_android: 進階機器人—農夫
-  lava_generator: 熔岩發電機
-  nether_ice: 地域冰
-  nether_star_reactor: 地域之星反應堆
-  blistering_ingots: 發泡錠
-  automatic_ignition_chamber: 自動點火
-  output_chest: 基礎器械輸出箱
-  copper_wire: 良導體!
-  radiant_backpack: 超級背包
-  auto_drier: 乾燥機
-  diet_cookie: 減肥餅
-  storm_staff: 元素杖—風暴
-  soulbound_rune: 魂綁符文
-  geo_miner: 自然資源挖掘機
-  lightning_rune: 閃電符文
-  totem_of_undying: 逃避死亡
-  charging_bench: 充電台
-  nether_gold_pan: 地域掏金盤
-  electric_press: 電動壓縮機
-  magnesium_generator: 鎂鹽發電
-  kelp_cookie: 自然的顏
-  makeshift_smeltery: 自動冶煉
-  tree_growth_accelerator: 自動金坷垃
-  industrial_miner: 工業化採礦
-  advanced_industrial_miner: 工業化採礦—改
-  magical_zombie_pills: 救贖藥丸
-  auto_brewer: 工業化釀造
-  enchantment_rune: 古代附魔
-  lead_clothing: 防輻射衣
-  tape_measure: 捲尺
-  iron_golem_assembler: 鐵巨人召喚機
-  climbing_pick: 飛簷走壁
-  shulker_shell: 工業界伏殼
-  villager_rune: 讓村民失業
-  caveman_talisman: 穴居人護符
-  even_higher_tier_capacitors: 第三級電容器
-  elytra_cap: 體驗動能
-  energy_connectors: 電線
-  bee_armor: 蜂裝
-  wise_talisman: 智者護身符
-  book_binder: 附魔書裝訂
-  auto_crafting: 自動合成
-  produce_collector: 自動擠奶
-  improved_generators: 改良過的發電機
-  ingredients_and_cheese: Slimefun 烹飪
-  medium_tier_auto_enchanting: 附魔＆退魔檯
-  portable_teleporter: 從任何地方傳送
-  farmer_talisman: 農夫護身符
+  walking_sticks: Walking Sticks
+  portable_crafter: Portable Crafter
+  fortune_cookie: Fortune Cookie
+  portable_dustbin: Portable Dustbin
+  meat_jerky: Meat Jerky
+  armor_forge: Armor Crafting
+  glowstone_armor: Glowstone Armor
+  lumps: Lumps and Magic
+  ender_backpack: Ender Backpack
+  ender_armor: Ender Armor
+  magic_eye_of_ender: Magic Eye of Ender
+  magic_sugar: Magic Sugar
+  monster_jerky: Monster Jerky
+  slime_armor: Slime Armor
+  sword_of_beheading: Sword of Beheading
+  basic_circuit_board: Basic Circuit Board
+  advanced_circuit_board: Advanced Circuit Board
+  smeltery: Smeltery
+  steel: Steel Age
+  misc_power_items: Important power-related Items
+  battery: Your first Battery
+  steel_plate: Steel Plating
+  steel_thruster: Steel Thruster
+  parachute: Parachute
+  grappling_hook: Grappling Hook
+  jetpacks: Jetpacks
+  multitools: Multi Tools
+  solar_panel_and_helmet: Solar Power
+  elemental_staff: Elemental Staves
+  grind_stone: Grind Stone
+  cactus_armor: Cactus Suit
+  gold_pan: Gold Pan
+  magical_book_cover: Magical Book Binding
+  slimefun_metals: New Metals
+  ore_crusher: Ore Doubling
+  bronze: Bronze Creation
+  alloys: Advanced Alloys
+  compressor_and_carbon: Carbon Creation
+  gilded_iron_armor: Gilded Iron Armor
+  synthetic_diamond: Synthetic Diamonds
+  pressure_chamber: Pressure Chamber
+  synthetic_sapphire: Synthetic Sapphires
+  damascus_steel: Damascus Steel
+  damascus_steel_armor: Damascus Steel Armor
+  reinforced_alloy: Reinforced Alloy
+  carbonado: Black Diamonds
+  magic_workbench: Magic Workbench
+  wind_staff: Wind Staff
+  reinforced_armor: Reinforced Armor
+  ore_washer: Ore Washer
+  gold_carats: Pure Gold
+  silicon: Silicon Valley
+  fire_staff: Fire Staff
+  smelters_pickaxe: Smelters Pickaxe
+  common_talisman: Common Talisman
+  anvil_talisman: Talisman of the Anvil
+  miner_talisman: Talisman of the Miner
+  hunter_talisman: Talisman of the Hunter
+  lava_talisman: Talisman of the Lava Walker
+  water_talisman: Talisman of the Water Breather
+  angel_talisman: Talisman of the Angel
+  fire_talisman: Talisman of the Firefighter
+  caveman_talisman: Talisman of the Caveman
+  wise_talisman: Talisman of the Wise
+  lava_crystal: Firey Situation
+  magician_talisman: Talisman of the Magician
+  traveller_talisman: Talisman of the Traveller
+  warrior_talisman: Talisman of the Warrior
+  knight_talisman: Talisman of the Knight
+  gilded_iron: Shiny Iron
+  synthetic_emerald: Fake Gem
+  chainmail_armor: Chainmail Armor
+  whirlwind_talisman: Talisman of the Whirlwind
+  wizard_talisman: Talisman of the Wizard
+  lumber_axe: Lumber Axe
+  hazmat_suit: Hazmat Suit
+  uranium: Radioactive
+  crushed_ore: Ore Purification
+  redstone_alloy: Redstone Alloy
+  carbonado_tools: Top Tier Machines
+  first_aid: First Aid
+  gold_armor: Shiny Armor
+  night_vision_googles: Night Vision Goggles
+  pickaxe_of_containment: Pickaxe of Containment
+  hercules_pickaxe: Hercules Pickaxe
+  table_saw: Table Saw
+  slime_steel_armor: Slimy Steel Armor
+  blade_of_vampires: Blade of Vampires
+  water_staff: Water Staff
+  24k_gold_block: Golden City
+  composter: Composting Dirt
+  farmer_shoes: Farmer Shoes
+  explosive_tools: Explosive Tools
+  automated_panning_machine: Automated Gold Pan
+  boots_of_the_stomper: Boots of the Stomper
+  pickaxe_of_the_seeker: Pickaxe of the Seeker
+  backpacks: Backpacks
+  woven_backpack: Woven Backpack
+  crucible: Crucible
+  gilded_backpack: Gilded Backpack
+  armored_jetpack: Armored Jetpack
+  ender_talismans: Ender Talismans
+  nickel_and_cobalt: Even more Ores
+  magnet: Magnetic Metals
+  infused_magnet: Infused Magnets
+  cobalt_pickaxe: Speedy Pickaxe
+  essence_of_afterlife: Necromancy
+  bound_backpack: Soulbound Storage
+  jetboots: Jet Boots
+  armored_jetboots: Armored Jet Boots
+  seismic_axe: Seismic Axe
+  pickaxe_of_vein_mining: Pickaxe of Vein Mining
+  bound_weapons: Soulbound Weapons
+  bound_tools: Soulbound Tools
+  bound_armor: Soulbound Armor
+  juicer: Delicious Drinks
+  repaired_spawner: Repairing Spawners
+  enhanced_furnace: Enhanced Furnace
+  more_enhanced_furnaces: Better Furnaces
+  high_tier_enhanced_furnaces: High Tier Furnace
+  reinforced_furnace: Reinforced Furnace
+  carbonado_furnace: Carbonado Edged Furnace
+  electric_motor: Heating up
+  block_placer: Block Placer
+  scroll_of_dimensional_teleposition: Turning things around
+  special_bows: Robin Hood
+  tome_of_knowledge_sharing: Sharing with friends
+  flask_of_knowledge: XP Storage
+  hardened_glass: Withstanding Explosions
+  golden_apple_juice: Golden potion
+  cooler: Portable Beverages
+  ancient_altar: Ancient Altar
+  wither_proof_obsidian: Wither-Proof Obsidian
+  ancient_runes: Elemental Runes
+  special_runes: Purple Runes
+  infernal_bonemeal: Infernal Bonemeal
+  rainbow_blocks: Rainbow Blocks
+  infused_hopper: Infused Hopper
+  wither_proof_glass: Wither-Proof Glass
+  duct_tape: Duct Tape
+  plastic_sheet: Plastic
+  android_memory_core: Memory Core
+  oil: Oil
+  fuel: Fuel
+  hologram_projector: Holograms
+  capacitors: Tier 1 Capacitors
+  high_tier_capacitors: Tier 2 Capacitors
+  even_higher_tier_capacitors: Tier 3 Capacitors
+  solar_generators: Solar Power Plant
+  electric_furnaces: Powered Furnace
+  electric_ore_grinding: Crushing and Grinding
+  heated_pressure_chamber: Heated Pressure Chamber
+  coal_generator: Coal Generator
+  bio_reactor: Bio-Reactor
+  auto_enchanting: Automatic Enchanting and Disenchanting
+  auto_anvil: Automatic Anvil
+  multimeter: Power Measurement
+  gps_setup: Basic GPS Setup
+  gps_emergency_transmitter: GPS Emergency Waypoint
+  programmable_androids: Programmable Androids
+  android_interfaces: Android Interfaces
+  geo_scanner: GEO-Scans
+  combustion_reactor: Combustion Reactor
+  teleporter: Teleporter Base Components
+  teleporter_activation_plates: Teleporter Activation
+  better_solar_generators: Upgraded Solar Generators
+  better_gps_transmitters: Upgraded Transmitters
+  elevator: Elevators
+  energized_solar_generator: Full-Time Solar Power
+  energized_gps_transmitter: Top Tier Transmitter
+  energy_regulator: Energy Networks 101
+  energy_connectors: Wired Connections
+  butcher_androids: Butcher Androids
+  organic_food: Organic Food
+  auto_breeder: Automated Feeding
+  advanced_android: Advanced Androids
+  advanced_butcher_android: Advanced Androids - Butcher
+  advanced_fisherman_android: Advanced Androids - Fisherman
+  animal_growth_accelerator: Animal Growth Manipulation
+  xp_collector: XP Collector
+  organic_fertilizer: Organic Fertilizer
+  crop_growth_accelerator: Crop Growth Acceleration
+  better_crop_growth_accelerator: Upgraded Crop Growth Accelerator
+  reactor_essentials: Reactor Essentials
+  nuclear_reactor: Nuclear Power Plant
+  freezer: Mr Freeze
+  cargo_basics: Cargo Basics
+  cargo_nodes: Cargo Setup
+  electric_ingot_machines: Electric Ingot Fabrication
+  medium_tier_electric_ingot_machines: Fast Ingot Fabrication
+  high_tier_electric_ingot_machines: Super Fast Ingot Fabrication
+  automated_crafting_chamber: Automated Crafting
+  better_food_fabricator: Upgraded Food Fabrication
+  reactor_access_port: Reactor Interaction
+  fluid_pump: Fluid Pump
+  better_freezer: Upgraded Freezer
+  boosted_uranium: Never-Ending Circle
+  trash_can: Trash
+  advanced_output_node: Advanced Output Node
+  carbon_press: Carbon Press
+  electric_smeltery: Electric Smeltery
+  better_electric_furnace: Upgraded Electric Furnace
+  better_carbon_press: Upgraded Carbon Press
+  empowered_android: Empowered Androids
+  empowered_butcher_android: Empowered Androids - Butcher
+  empowered_fisherman_android: Empowered Androids - Fisherman
+  high_tier_carbon_press: Ultimate Carbon Press
+  wither_assembler: Automated Wither Killer
+  better_heated_pressure_chamber: Upgraded Heated Pressure Chamber
+  elytra: Elytras
+  special_elytras: Special Elytras
+  trident: Trident
+  electric_crucible: Electrified Crucible
+  better_electric_crucibles: Hot Crucibles
+  advanced_electric_smeltery: Advanced Electric Smeltery
+  advanced_farmer_android: Advanced Androids - Farmer
+  lava_generator: Lava Generator
+  nether_ice: Nether Ice Coolant
+  nether_star_reactor: Nether Star Reactor
+  blistering_ingots: Blistering Radioactivity
+  automatic_ignition_chamber: Automatic Ignition Chamber
+  output_chest: Basic machinery output chest
+  copper_wire: Thinned-down Conductivity
+  radiant_backpack: Radiant Backpack
+  auto_drier: A Dry Day
+  diet_cookie: Diet Cookie
+  storm_staff: Storm Staff
+  soulbound_rune: Soulbound Rune
+  geo_miner: GEO-Miner
+  lightning_rune: Lightning Rune
+  totem_of_undying: Totem of Undying
+  charging_bench: Charging Bench
+  nether_gold_pan: Nether Gold Pan
+  electric_press: Electric Press
+  magnesium_generator: Power from Magnesium
+  kelp_cookie: Tasty Kelp
+  makeshift_smeltery: Improvised Smeltery
+  tree_growth_accelerator: Faster Trees
+  industrial_miner: Industrial Mining
+  advanced_industrial_miner: Better Mining
+  magical_zombie_pills: De-Zombification
+  auto_brewer: Industrial Brewery
+  climbing_pick: Block Raider
+  shulker_shell: Synthetic Shulkers
+  enchantment_rune: Ancient Enchanting
+  lead_clothing: Lead Clothing
+  tape_measure: Tape Measure
+  iron_golem_assembler: Automated Iron Golems
+  villager_rune: Reset Villager Trades
+  elytra_cap: Crash Gear
+  bee_armor: Bee Armor
+  book_binder: Enchantment Book Binding
+  auto_crafting: Automatic Crafting
+  produce_collector: Automatic Milking
+  improved_generators: Improved Generators
+  ingredients_and_cheese: Slimefun Cuisine
+  medium_tier_auto_enchanting: Fast Automatic Enchanting and Disenchanting
+  portable_teleporter: Teleportation from Anywhere
+  farmer_talisman: Talisman of the Farmer
+  rainbow_armor: I wanna see the rainbow high in the sky

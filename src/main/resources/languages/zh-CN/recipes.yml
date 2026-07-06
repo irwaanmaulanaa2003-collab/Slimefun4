@@ -1,168 +1,200 @@
----
 slimefun:
+
   multiblock:
-    name: '多方块结构'
+    name: 'Multiblock'
     lore:
-      - '按照展示的结构用方块建造.'
-      - '它不能被合成.'
+    - 'Build the shown structure'
+    - 'as shown. It is not crafted.'
+
   enhanced_crafting_table:
-    name: '增强型工作台 (Enhanced Crafting Table)'
+    name: 'Enhanced Crafting Table'
     lore:
-      - '如合成表所示'
-      - '在增强型工作台中合成.'
-      - '一个普通的工作台远远不够!'
+    - 'Craft this Item as shown'
+    - 'in an Enhanced Crafting Table.'
+    - 'A normal Crafting Table will not suffice!'
+
   armor_forge:
-    name: '盔甲锻造台 (Armor Forge)'
+    name: 'Armor Forge'
     lore:
-      - '如合成表所示'
-      - '用盔甲锻造台合成'
+    - 'Craft this Item as shown'
+    - 'using an Armor Forge'
+
   grind_stone:
-    name: '磨石 (Grind Stone)'
+    name: 'Grind Stone'
     lore:
-      - '如合成表所示'
-      - '使用磨石制作'
+    - 'Craft this Item as shown'
+    - 'using a Grind Stone'
+
   smeltery:
-    name: '冶炼炉 (Smeltery)'
+    name: 'Smeltery'
     lore:
-      - '如合成表所示'
-      - '用冶炼炉合成'
+    - 'Craft this Item as shown'
+    - 'using a Smeltery'
+
   ore_crusher:
-    name: '矿石粉碎机 (Ore Crusher)'
+    name: 'Ore Crusher'
     lore:
-      - '如合成表所示'
-      - '在碎矿机中合成'
+    - 'Craft this Item as shown'
+    - 'using an Ore Crusher'
+
   mob_drop:
-    name: '击杀生物掉落'
+    name: 'Mob Drop'
     lore:
-      - '击杀指定的生物'
-      - '以获得该物品'
+    - 'Kill that Mob to'
+    - 'obtain this item'
+
   gold_pan:
-    name: '淘金盘 (Gold Pan)'
+    name: 'Gold Pan'
     lore:
-      - '使用淘金盘'
-      - '获得此物品'
+    - 'Use a Gold Pan to'
+    - 'obtain this item'
+
   compressor:
-    name: '压缩机 (Compressor)'
+    name: 'Compressor'
     lore:
-      - '如合成表所示'
-      - '在压缩机中合成'
+    - 'Craft this Item as shown'
+    - 'using a Compressor'
+
   pressure_chamber:
-    name: '压力舱 (Pressure Chamber)'
+    name: 'Pressure Chamber'
     lore:
-      - '如合成表所示'
-      - '在压力舱中合成'
+    - 'Craft this Item as shown'
+    - 'using a Pressure Chamber'
+
   ore_washer:
-    name: '洗矿机 (Ore Washer)'
+    name: 'Ore Washer'
     lore:
-      - '如合成表所示'
-      - '在洗矿机中合成'
+    - 'Craft this Item as shown'
+    - 'using an Ore Washer'
+
   juicer:
-    name: '榨汁机 (Juicer)'
+    name: 'Juicer'
     lore:
-      - '如合成表所示'
-      - '在榨汁机中制作果汁'
+    - 'Craft this Juice as shown'
+    - 'using a Juicer'
+
   magic_workbench:
-    name: '魔法工作台 (Magic Workbench)'
+    name: 'Magic Workbench'
     lore:
-      - '如合成表所示'
-      - '在魔法工作台中合成'
+    - 'Craft this Item as shown'
+    - 'using a Magic Workbench'
+
   ancient_altar:
-    name: '古代祭坛 (Ancient Altar)'
+    name: 'Ancient Altar'
     lore:
-      - '如合成表所示'
-      - '使用古代祭坛合成'
-      - '查看古代祭坛页面获得更多信息'
+    - 'Craft this Item as shown'
+    - 'using an Ancient Altar.'
+    - 'Look up the Ancient Altar for more Info'
+    
   heated_pressure_chamber:
-    name: '加热压力舱 (Heated Pressure Chamber)'
+    name: 'Heated Pressure Chamber'
     lore:
-      - '如合成表所示'
-      - '用加热压力舱合成'
+    - 'Craft this Item as shown'
+    - 'using a Heated Pressure Chamber'
+    
   food_fabricator:
-    name: '食品加工机 (Food Fabricator)'
+    name: 'Food Fabricator'
     lore:
-      - '如合成表所示合成'
-      - '使用食品加工机'
+    - 'Craft this Item as shown'
+    - 'using a Food Fabricator'
+    
   food_composter:
-    name: '食品堆肥器 (Food Composter)'
+    name: 'Food Composter'
     lore:
-      - '如合成表所示'
-      - '在食品堆肥器中制作'
+    - 'Craft this Item as shown'
+    - 'using a Food Composter'
+    
   freezer:
-    name: '冰箱 (Freezer)'
+    name: 'Freezer'
     lore:
-      - '如合成表所示'
-      - '在冰箱中合成'
+    - 'Craft this Item as shown'
+    - 'using a Freezer'
+    
   geo_miner:
-    name: '自然资源开采机 (GEO Miner)'
+    name: 'GEO Miner'
     lore:
-      - '这个物品可以通过'
-      - '自然资源开采机获得'
+    - 'This Item can be gathered'
+    - 'by using a GEO Miner'
+    
   nuclear_reactor:
-    name: '核反应堆 (Nuclear Reactor)'
+    name: 'Nuclear Reactor'
     lore:
-      - '这个物品是核反应堆'
-      - '运行时产生的副产物'
+    - 'This Item is a byproduct'
+    - 'of running a Nuclear Reactor'
+    
   oil_pump:
-    name: '油泵 (Oil Pump)'
+    name: 'Oil Pump'
     lore:
-      - '这个物品可以用'
-      - '油泵收集'
+    - 'This Item can be gathered'
+    - 'by using an Oil Pump'
+    
   pickaxe_of_containment:
-    name: '刷怪笼之镐 (Pickaxe of Containment)'
+    name: 'Pickaxe of Containment'
     lore:
-      - '这个方块可以'
-      - '用刷怪笼之镐'
-      - '挖掘后得到'
+    - 'This Block can be obtained'
+    - 'by mining a Spawner with'
+    - 'the Pickaxe of Containment'
+    
   refinery:
-    name: '炼油机 (Refinery)'
+    name: 'Refinery'
     lore:
-      - '如合成表所示'
-      - '用炼油机合成'
+    - 'Craft this Item as shown'
+    - 'using a Refinery'
+    
   barter_drop:
-    name: '猪灵交易掉落'
+    name: 'Piglin Bartering Drop'
     lore:
-      - '使用金锭与猪灵交易'
-      - '可以获得此物品'
+    - 'Barter with Piglins using'
+    - 'Gold Ingots to obtain this Item'
+    
 minecraft:
+
   shaped:
-    name: '有序合成'
+    name: 'Shaped Crafting Recipe'
     lore:
-      - '如合成表所示'
-      - '在普通的工作台中合成'
-      - '摆放顺序很重要.'
+    - 'Craft this Item as shown'
+    - 'in a normal Crafting Table.'
+    - 'The shape is important.'
+    
   shapeless:
-    name: '无序合成'
+    name: 'Shapeless Crafting Recipe'
     lore:
-      - '如合成表所示'
-      - '在普通的工作台中合成.'
-      - '摆放顺序不重要.'
+    - 'Craft this Item as shown'
+    - 'in a normal Crafting Table.'
+    - 'This Recipe is shapeless.'
+    
   furnace:
-    name: '熔炉合成表'
+    name: 'Furnace Recipe'
     lore:
-      - '在熔炉中燃烧'
-      - '以合成你想要的物品'
+    - 'Smelt this item in a Furnace'
+    - 'to craft your desired item'
+    
   blasting:
-    name: '高炉合成表'
+    name: 'Blast Furnace Recipe'
     lore:
-      - '在高炉中燃烧'
-      - '以合成你想要的物品'
+    - 'Smelt this item in a Blast Furnace'
+    - 'to craft your desired item'
+    
   smoking:
-    name: '烟熏炉合成表'
+    name: 'Smoker Recipe'
     lore:
-      - '在烟熏炉中燃烧'
-      - '以合成你想要的物品'
+    - 'Smelt this item in a Smoker'
+    - 'to craft your desired item'
+    
   campfire:
-    name: '营火合成表'
+    name: 'Campfire Recipe'
     lore:
-      - '在营火上燃烧'
-      - '以合成你想要的物品'
+    - 'Smelt this item over a Campfire'
+    - 'to craft your desired item'
+    
   stonecutting:
-    name: '切石机合成表'
+    name: 'Stonecutter Recipe'
     lore:
-      - '如合成表所示'
-      - '使用切石机合成'
+    - 'Craft this Item as shown'
+    - 'using a Stonecutter'
+    
   smithing:
-    name: '锻造台'
+    name: 'Smithing Table Recipe'
     lore:
-      - '如所示配方'
-      - '在锻造台中合成'
+    - 'Craft this Item as shown'
+    - 'using a Smithing Table'

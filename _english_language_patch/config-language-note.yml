@@ -1,0 +1,5 @@
+# Optional config change only. Do NOT replace your whole config with this file.
+# In plugins/Slimefun/config.yml or src/main/resources/config.yml, make sure language is English:
+options:
+  language: en
+  enable-translations: true

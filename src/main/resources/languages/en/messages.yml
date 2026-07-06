@@ -44,6 +44,16 @@ commands:
     reload-success: "&aReloaded config file successfully."
     reload-failed: "&cReload config failed, you may need restart server to apply change, see console for more info."
 
+  migrate:
+    description: "Migrate old data"
+    confirm: "&cAre you sure you want to perform data migration? Type /sf migrate confirm to start.\nPlease ensure players do not use Slimefun machines or items during the migration process!"
+    started: "&aMigrating old data..."
+    success: "&aSuccessfully migrated old data (%migrate_type%) to the database."
+    failed: "&cAn error occurred during data migration, please check the console."
+    already-migrated: "&aNo data available to migrate."
+    in-progress: "&aMigration is in progress..."
+  blockdata:
+    description: 'Manage Slimefun block data'
 placeholderapi:
   profile-loading: 'Loading...'
 
@@ -55,6 +65,12 @@ guide:
   - 'To unlock this category you will'
   - 'need to unlock all items from the'
   - 'following categories'
+
+  locked-item:
+    click-to-unlock: '&a> Click to unlock'
+    cost-header: '&7Cost: &b'
+    currency-cost: '%cost% Money'
+    level-cost: '%cost% Levels of Experience'
 
   search:
     message: '&bWhat would you like to search for?'
@@ -356,6 +372,8 @@ villagers:
 backpack:
   already-open: '&cSorry, this Backpack is open somewhere else!'
   no-stack: '&cYou cannot stack Backpacks'
+  set-name: '&ePlease enter a name for your backpack in the chat. &7(Color codes are supported!)'
+  not-original-item: '&cYou must be holding the original backpack item!'
 
 workbench:
   not-enhanced: '&4You cannot use Slimefun items in a normal workbench'
