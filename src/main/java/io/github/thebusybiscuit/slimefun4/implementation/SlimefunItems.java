@@ -1687,10 +1687,8 @@ public final class SlimefunItems {
             "",
             LoreBuilder.machine(MachineTier.END_GAME, MachineType.GENERATOR),
             LoreBuilder.powerBuffer(0),
-            LoreBuilder.powerPerSecond(256),
-            " (Day)",
-            LoreBuilder.powerPerSecond(128),
-            " (Night)");
+            LoreBuilder.powerPerSecond(256) + " (Day)",
+            LoreBuilder.powerPerSecond(128) + " (Night)");
 
     public static final SlimefunItemStack COAL_GENERATOR = new SlimefunItemStack(
             "COAL_GENERATOR",
@@ -2559,9 +2557,9 @@ public final class SlimefunItems {
             "&8\u21E8 &bMust be supplied with Nether Ice Coolant Cells",
             "",
             LoreBuilder.machine(MachineTier.END_GAME, MachineType.GENERATOR),
-            "&8\u21E8 &4Causes nearby Entities to get Withered",
-            "&8\u21E8 &e\u26A1 &71024 J/s",
-            "&8\u21E8 &4Applies the Wither effect to nearby entities");
+            LoreBuilder.powerBuffer(32768),
+            LoreBuilder.powerPerSecond(1024),
+            "&8\u21E8 &4Causes nearby Entities to get Withered");
     public static final SlimefunItemStack REACTOR_ACCESS_PORT = new SlimefunItemStack(
             "REACTOR_ACCESS_PORT",
             Material.CYAN_TERRACOTTA,
