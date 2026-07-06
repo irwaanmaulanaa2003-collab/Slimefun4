@@ -504,9 +504,7 @@ public abstract class Reactor extends AbstractEnergyProvider
 
             for (int slot : getCoolantSlots()) {
                 if (SlimefunUtils.isItemSimilar(menu.getItemInSlot(slot), coolant, true, false)) {
-                    menu.consumeItem(slot);
-                    removeHologram(reactor.getBlock());
-                    return true;
+                    menu.consumeItem(slot); return true;
                 }
             }
 
